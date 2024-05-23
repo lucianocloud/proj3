@@ -1,10 +1,12 @@
 import React from 'react';
+import './About.css'; // Vamos adicionar estilos específicos para o About
 
 const About = () => {
   return (
-    <div>
-      <h1>Sobre a página</h1>
-      <p>Está é minha página.</p>
+    <div className="about-container">
+      <h1>Sobre</h1>
+      <p>Esta é a página Sobre.</p>
+      <img src={`${process.env.PUBLIC_URL}/about.jpg`} alt="Sobre" className="about-image" />
     </div>
   );
 };

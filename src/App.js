@@ -12,7 +12,7 @@ function App() {
         <nav>
           <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">Sobre</Link></li> {/* Alterado de "About" para "Sobre" */}
+            <li><Link to="/about">Sobre</Link></li>
             <li><Link to="/contact">Contato</Link></li>
           </ul>
         </nav>
